@@ -4,6 +4,7 @@ import os
 
 @Gooey(optional_cols=2,program_name="Gooey Executable with Pyinstaller")
 def parse_args():
+    print(1)
     prog_descrip = 'Pyinstaller example with Gooey'
     parser = GooeyParser(description=prog_descrip)
 
